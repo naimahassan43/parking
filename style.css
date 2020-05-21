@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*Header Start*/
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+    margin: 0 auto;
+}
+.logo{
+	width: 16%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 81%;
+	float: right;
+	margin-top: 15px;
+}
+.menu ul{
+	list-style: none;
+
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #0B4D76;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 20px;
+    display: inline-block;
+    transition: .3s;
+}
+.menu ul li a:hover{
+	color: #ABBCC9;
+}
